@@ -1,0 +1,15 @@
+bin/ofxReflectionRefractionTest.app/
+bin/ofxReflectionRefractionTestDebug.app/
+/obj/
+/.vscode/
+*.DS_Store
+.venv/
+*.png
+*.wav
+.vs/
+*.exe
+*.exp
+*.lib
+*.dll
+
+
