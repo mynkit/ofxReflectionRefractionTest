@@ -10,7 +10,6 @@ class ofApp : public ofBaseApp{
 		void setup();
 		void update();
 		void draw();
-        void reload(int num);
 
 		void keyPressed(int key);
 		void keyReleased(int key);
@@ -27,9 +26,7 @@ class ofApp : public ofBaseApp{
         ofEasyCam cam;
         vector<ofImage> pos;
         vector<ofImage> neg;
-        ofxPanel gui;
         ofParameter<ofVec3f> translate;
         vector<ofxReflectionRefraction> Ref;
-        ofMesh sphere;
         ofMesh box;
 };
